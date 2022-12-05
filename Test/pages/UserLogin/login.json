@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "登录",
+  
+  "usingComponents": {
+    "t-stepper": "../../miniprogram_npm/tdesign-miniprogram/stepper/stepper",
+    "t-input": "../../miniprogram_npm/tdesign-miniprogram/input/input"
+  }
+}

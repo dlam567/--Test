@@ -1,0 +1,14 @@
+<!--pages/Manage/Manage.wxml-->
+<text>pages/Manage/Manage.wxml</text>
+<view class="welcometext" extstyle="width: 750rpx; height: 166rpx; display: block; box-sizing: border-box; align-t: center" style="text-align-last: center; width: 754rpx; height: 212rpx; display: block; box-sizing: border-box"><font style="font-size: 20px; position: relative; left: 1rpx; top: 75rpx">你好, {{username}} 你的身份是 {{job}}</font></view>
+<view class="wrapper">
+  <t-upload
+    media-type="{{['video','image']}}"
+    files="{{originFiles}}"
+    gridConfig="{{gridConfig}}"
+    bind:success="handleSuccess"
+    bind:remove="handleRemove"
+    bind:click="handleClick"
+  />
+</view>
+

@@ -1,0 +1,16 @@
+<!--pages/Home/home.wxml-->
+<view class="box">
+      <animation loading />
+    </view>
+    <view class="box">
+      <animation loading />
+    </view>    <view class="box">
+      <animation loading />
+    </view>    <view class="box">
+      <animation loading />
+    </view>    <view class="box">
+      <animation loading />
+    </view>    <view class="box">
+      <animation loading />
+    </view>
+

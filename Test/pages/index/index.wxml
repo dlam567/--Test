@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container" style="position: relative; left: 0rpx; top: 72rpx; width: 750rpx; display: flex; box-sizing: border-box; height: 1240rpx">
+  <image style="width: 150rpx; height: 150rpx; display: block; box-sizing: border-box; left: 0rpx; position: relative; top: -72rpx" src="../../img/desktop.png" />
+  <!--显示欢迎-->
+  <text class="user-motto" style="position: relative; left: 0rpx; top: -10rpx; font-size: 20px; font-weight: bold; justify-content: center" selectable="{{ false }}">{{welcome}}</text>
+  <!--显示 专用小工具-->
+  <text class="user-motto" style="position: relative; left: 0rpx; top: -81rpx; font-size: 30px; justify-content: center; width: auto; height: auto; display: block; box-sizing: border-box">{{motto}}
+
+  </text>
+
+  <navigator url="../Home/home"><button bindtap="ck" class="btn" type="primary" style="position: relative; left: 0rpx; top: -14rpx">进入</button></navigator>
+
+
+  <navigator url="../UserLogin/login"><button>登录</button></navigator>
+</view>
+  
+
+ 
+

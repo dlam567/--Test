@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Home/home",
+    "pages/UserLogin/login",
+    "pages/Manage/Manage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "YZers小工具",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "t-input": "/miniprogram_npm/tdesign-miniprogram/input/input",
+    "t-skeleton": "/miniprogram_npm/tdesign-miniprogram/skeleton/skeleton",
+    "t-toast": "/miniprogram_npm/tdesign-miniprogram/toast/toast"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

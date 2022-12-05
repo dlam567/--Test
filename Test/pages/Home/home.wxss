@@ -1,0 +1,7 @@
+/* pages/Home/home.wxss */
+page {
+  background-color: #fff;
+}
+page .box {
+  margin: 32rpx;
+}
