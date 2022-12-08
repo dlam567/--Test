@@ -1,3 +1,8 @@
+## **开发工具下载地址**
+>https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html
+## **微信学堂官网地址**
+>https://developers.weixin.qq.com/community/business
+
 ### --Test  
 # 78号小工具
 ### 一个发布和接收通知的地方  
